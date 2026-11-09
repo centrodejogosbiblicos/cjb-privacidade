@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Política de Privacidade da Central de Jogos Bíblicos para Android.">
+  <meta name="referrer" content="no-referrer">
+  <title>Política de Privacidade | Central de Jogos Bíblicos</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --paper: #fcfaf6;
+      --surface: #f2edfa;
+      --ink: #211b33;
+      --muted: #514961;
+      --link: #44317e;
+      --line: #ded6e8;
+      font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      color: var(--ink);
+      background: var(--paper);
+      line-height: 1.7;
+    }
+    .wrap {
+      width: min(100%, 52rem);
+      margin-inline: auto;
+      padding-inline: clamp(1rem, 4vw, 2rem);
+    }
+    a {
+      color: var(--link);
+      text-underline-offset: .18em;
+      overflow-wrap: anywhere;
+    }
+    a:focus-visible, main:focus-visible {
+      outline: 2px solid var(--link);
+      outline-offset: 4px;
+    }
+    .skip-link {
+      position: absolute;
+      z-index: 1;
+      inset: .5rem auto auto .5rem;
+      padding: .5rem 1rem;
+      background: var(--paper);
+      transform: translateY(-150%);
+    }
+    .skip-link:focus { transform: none; }
+    header {
+      padding-block: clamp(2rem, 6vw, 4.5rem) clamp(1.5rem, 4vw, 3rem);
+      background: var(--surface);
+      border-block-end: 1px solid var(--line);
+    }
+    h1, h2, p { margin: 0; }
+    .eyebrow {
+      margin-block-end: .55rem;
+      color: var(--link);
+      font-size: .82rem;
+      font-weight: 700;
+      letter-spacing: .08em;
+      text-transform: uppercase;
+    }
+    h1 {
+      max-width: 20ch;
+      font-size: clamp(2rem, 6vw, 3.7rem);
+      line-height: 1.12;
+      letter-spacing: -.035em;
+      overflow-wrap: anywhere;
+    }
+    .intro {
+      max-width: 66ch;
+      margin-block-start: 1.25rem;
+      color: var(--muted);
+      font-size: 1.075rem;
+    }
+    .meta { margin-block-start: .9rem; }
+    nav {
+      padding-block: 1.25rem;
+      border-block-end: 1px solid var(--line);
+    }
+    nav ul {
+      display: flex;
+      flex-wrap: wrap;
+      gap: .45rem 1.1rem;
+      padding: 0;
+      margin: 0;
+      list-style: none;
+    }
+    nav a {
+      display: inline-block;
+      padding-block: .25rem;
+      font-weight: 650;
+    }
+    section {
+      padding-block: 1.6rem;
+      scroll-margin-block-start: 1rem;
+    }
+    section + section { border-block-start: 1px solid var(--line); }
+    h2 {
+      margin-block-end: .75rem;
+      font-size: clamp(1.32rem, 3vw, 1.72rem);
+      line-height: 1.25;
+    }
+    section p + p { margin-block-start: .85rem; }
+    footer {
+      border-block-start: 1px solid var(--line);
+      padding-block: 1.25rem 2rem;
+      color: var(--muted);
+    }
+    @media print {
+      body, header { background: white; color: black; }
+      nav, footer, .skip-link { display: none; }
+      h1, h2 { break-after: avoid; }
+      section { padding-block: .9rem; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header>
+    <div class="wrap">
+      <p class="eyebrow">Aplicativo Android</p>
+      <h1>Política de Privacidade da Central de Jogos Bíblicos</h1>
+      <p class="intro">Esta política explica como a Central de Jogos Bíblicos (CJB) trata dados na versão Android e nesta página. Você pode jogar como convidado, inclusive sem conexão.</p>
+      <p class="meta">A responsável pelo tratamento dos dados pessoais é <strong>Alicy Castellani</strong>. Esta política entra em vigor na data de sua publicação (<time datetime="2026-11-09">09/11/2026</time>). Para falar sobre privacidade, escreva para <a href="mailto:centrodejogosbiblicos@gmail.com">centrodejogosbiblicos@gmail.com</a>.</p>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <nav aria-label="Nesta política">
+      <ul>
+        <li><a href="#conta">Conta Google</a></li>
+        <li><a href="#dados-locais">Dados locais</a></li>
+        <li><a href="#anuncios">Anúncios</a></li>
+        <li><a href="#exclusao-conta">Exclusão de conta</a></li>
+        <li><a href="#direitos">Direitos e contato</a></li>
+      </ul>
+    </nav>
+
+    <main id="conteudo" tabindex="-1">
+      <section id="conta" aria-labelledby="titulo-conta">
+        <h2 id="titulo-conta">Conta Google</h2>
+        <p>Entrar com Google é opcional. Ao escolher essa opção, o CJB usa o Google Sign-In e envia ao Firebase Authentication um token do Google, que serve para confirmar sua identidade e criar ou acessar seu cadastro no CJB. O Firebase mantém um identificador de usuário e os dados vinculados ao login. O CJB exibe seu nome e e-mail em Configurações, quando disponíveis. Sua senha do Google é gerenciada pelo Google.</p>
+        <p>O Google também pode tratar dados técnicos da autenticação, como o endereço IP e informações do aplicativo ou do dispositivo, para operar e proteger o serviço. <a href="https://firebase.google.com/support/privacy">Privacidade e segurança no Firebase</a></p>
+      </section>
+
+      <section id="dados-locais" aria-labelledby="titulo-dados-locais">
+        <h2 id="titulo-dados-locais">Dados salvos no dispositivo</h2>
+        <p>O app guarda preferências como o tema, o estado das partidas, desafios vistos ou respondidos, pontuação, sequências de acertos, estatísticas, constância diária, ranking local do Quiz, saldo de moedas virtuais e registros de ganhos e gastos. Esses dados permitem retomar o jogo, mostrar seu desempenho e evitar que uma operação seja repetida.</p>
+        <p>Entrar com Google na versão atual não envia seu progresso ou suas moedas a um serviço de sincronização do CJB. A sincronização entre aparelhos foi usada em ensaios separados de desenvolvimento e ainda não está disponível para jogadores. Alguns dados locais podem ser incluídos em backups ou transferências do Android, conforme as configurações do dispositivo.</p>
+        <p>O Premium disponível para ensaio é uma simulação salva no dispositivo. A assinatura paga via Google Play é planejada. Nesta versão, o CJB não processa compras ou assinaturas nem recebe dados de pagamento por meio do Google Play Billing.</p>
+      </section>
+
+      <section id="anuncios" aria-labelledby="titulo-anuncios">
+        <h2 id="titulo-anuncios">Anúncios e escolhas de privacidade</h2>
+        <p>A veiculação de anúncios está restrita a versões de desenvolvimento habilitadas para teste. Nelas, o Google AdMob pode receber endereço IP, identificadores do dispositivo ou do app, interações com anúncios e informações de diagnóstico para exibir e medir anúncios de teste, operar o serviço e prevenir fraudes. As solicitações de teste usam anúncios sem personalização. A configuração Android atual remove as permissões de acesso ao ID de publicidade do sistema. Isso não impede que o SDK trate outros sinais técnicos. <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Dados do SDK de anúncios</a></p>
+        <p>Nesses testes, o Google User Messaging Platform (UMP) verifica se precisa mostrar uma mensagem de consentimento e registra o estado das escolhas de privacidade. Quando o UMP indica que a opção é necessária, você pode abrir <strong>Privacidade dos anúncios</strong> em Configurações para rever suas escolhas. A veiculação comercial permanece desativada. <a href="https://policies.google.com/technologies/partner-sites?hl=pt-BR">Como o Google usa dados em apps parceiros</a></p>
+      </section>
+
+      <section id="compartilhamento" aria-labelledby="titulo-compartilhamento">
+        <h2 id="titulo-compartilhamento">Compartilhamento e segurança</h2>
+        <p>O Google trata dados para fornecer o login e o Firebase Authentication e, nos ensaios habilitados, os serviços AdMob e UMP. O Firebase usa HTTPS para proteger os dados em trânsito. A autenticação pode envolver tratamento fora do Brasil, inclusive nos Estados Unidos, onde o Google opera o Firebase Authentication. Ao escrever ao contato de privacidade, seu endereço de e-mail e o conteúdo da mensagem são tratados para responder à solicitação, com uso do Gmail. <a href="https://policies.google.com/privacy?hl=pt-BR">Política de Privacidade do Google</a> · <a href="https://firebase.google.com/support/privacy">Informações do Firebase</a></p>
+        <p>Esta página não inclui scripts de rastreamento nem solicita dados por formulário. Quando hospedada no GitHub Pages, o GitHub registra o endereço IP dos visitantes para fins de segurança. <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages">Sobre o GitHub Pages</a></p>
+      </section>
+
+      <section id="exclusao-conta" aria-labelledby="titulo-exclusao-conta">
+        <h2 id="titulo-exclusao-conta">Retenção e exclusão</h2>
+        <p>Os dados locais permanecem no armazenamento do app para que você possa retomar o jogo. Para removê-los da instalação atual, use a opção de limpar o armazenamento do CJB nas configurações do Android. Isso pode apagar seu progresso, seu ranking local e suas moedas virtuais. Cópias gerenciadas pelo Android seguem as configurações de backup do dispositivo.</p>
+        <p><strong>Sair da conta</strong> encerra o login naquele aparelho. Limpar o armazenamento ou desinstalar o app não exclui o cadastro do CJB no Firebase. O Firebase Authentication mantém os dados do cadastro até que a responsável inicie a exclusão. A retenção dos registros técnicos e a remoção dos dados nos sistemas do Firebase seguem os critérios do serviço. <a href="https://firebase.google.com/support/privacy">Retenção de dados no Firebase</a></p>
+        <p>As mensagens e os registros de atendimento são mantidos pelo tempo necessário para analisar, responder e documentar a conclusão da solicitação.</p>
+        <p>Para solicitar a exclusão do cadastro do CJB e dos dados associados, use o <a href="mailto:centrodejogosbiblicos@gmail.com?subject=Exclus%C3%A3o%20de%20conta%20CJB">e-mail de privacidade</a> com o assunto <strong>Exclusão de conta CJB</strong>. Se possível, escreva a partir do e-mail usado para entrar. Evite enviar senhas, códigos de acesso ou documentos na mensagem inicial. A mensagem é um pedido de atendimento e a exclusão depende de ação da responsável. O pedido se refere ao cadastro do CJB e é independente da sua conta Google.</p>
+      </section>
+
+      <section id="direitos" aria-labelledby="titulo-direitos">
+        <h2 id="titulo-direitos">Direitos e contato</h2>
+        <p>Nos casos previstos na Lei Geral de Proteção de Dados (LGPD), você pode pedir confirmação do tratamento, acesso, correção, informações sobre compartilhamento, eliminação, bloqueio, anonimização ou portabilidade. Também pode retirar o consentimento quando ele for a base do tratamento, apresentar oposição nas hipóteses legais e peticionar à Autoridade Nacional de Proteção de Dados (ANPD). Para exercer seus direitos ou tirar dúvidas, escreva para <a href="mailto:centrodejogosbiblicos@gmail.com">centrodejogosbiblicos@gmail.com</a>. <a href="https://www.gov.br/anpd/pt-br/assuntos/titular-de-dados-1/direito-dos-titulares">Direitos dos titulares na ANPD</a></p>
+      </section>
+
+      <section id="criancas" aria-labelledby="titulo-criancas">
+        <h2 id="titulo-criancas">Crianças e adolescentes</h2>
+        <p>O público principal previsto do CJB é de adolescentes a partir dos 13 anos e adultos. O aplicativo não verifica a idade. Para jogar, você não precisa informar idade, religião ou igreja. Quando houver tratamento de dados de crianças ou adolescentes, deve ser observado o melhor interesse deles. Pais ou responsáveis podem usar o contato de privacidade para tirar dúvidas ou fazer solicitações sobre esses dados.</p>
+      </section>
+
+      <section id="atualizacoes" aria-labelledby="titulo-atualizacoes">
+        <h2 id="titulo-atualizacoes">Atualizações desta política</h2>
+        <p>A versão vigente desta política fica disponível nesta página. Se o funcionamento do CJB mudar de forma relevante, esta política deve refletir as novas práticas antes da disponibilização do recurso.</p>
+      </section>
+    </main>
+
+    <footer>
+      <small>Central de Jogos Bíblicos</small>
+    </footer>
+  </div>
+</body>
+</html>
